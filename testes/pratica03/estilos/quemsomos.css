@@ -2,15 +2,19 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
 }
 
 body {
-    background-color: #e61f267e;
+    background: url(../imagens/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: block;
     text-align: center;
+
 }
+
 html {
     height: 100vh;
 }
@@ -20,45 +24,46 @@ header {
     color: white;
 }
 
+#logomer {
+    display: block;
+    margin: auto;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
 header h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2em;
-    text-align: center;
     padding-bottom: 5px;
 }
 
 #burguer {
-    background-color: #b90e13;
     display: block;
-    text-align: center;
+    background-color: #b90e13;
     padding: 10px;
 }
 
 #burguer:hover {
     background-color: #002212;
+    border-radius: 3px;
 }
 
 menu {
     display: none;
 }
 
-menu a:hover {
-    background-color: #002212;
-    border-radius: 5px;
-}
-
-menu > ul {
-   list-style: none;
-}
-
 menu > ul > li > a {
     display: block;
-    padding: 5px 15px;
-    text-decoration: none;
-    text-align: center;
     background-color: #E61F26;
     color: white;
-   
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+menu > ul > li > a:hover {
+    background-color: #002212;
+    border-radius: 3px;
 }
 
 main {
@@ -68,34 +73,27 @@ main {
     padding: 10px;
 }
 
-article > p {
-    text-indent: 20px;
+main > article > h2 {
+    font-size: 2em;
+    padding: 5px;
+}
+
+main > article > p {
     text-align: justify;
+    text-indent: 20px;
+    font-size: 1.5em;
 }
 
-#logomer {
-    border-radius: 50%;
-    width: 40px;
+.emoji {
     display: block;
-    margin: auto;
-    padding: 10px;
-}
-
-.lojas {
-    font-weight: bolder;
-}
-
-img {
-    display: block;
-    margin: auto;
-    width: 350px;
+    text-align: center;
+    font-size: 2.35em;
 }
 
 footer {
     background-color: black;
     color: white;
     font-weight: bolder;
-    text-align: center;
 }
 
 footer a {
