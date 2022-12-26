@@ -8,11 +8,8 @@
 
 body {
     background: url(../imagens/back.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    display: block;
     text-align: center;
-
 }
 
 html {
@@ -74,14 +71,14 @@ main {
 }
 
 main > article > h2 {
-    font-size: 2em;
-    padding: 5px;
+    font-size: 1.91em;
+    padding: 5.1px;
 }
 
 main > article > p {
     text-align: justify;
     text-indent: 20px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .emoji {
